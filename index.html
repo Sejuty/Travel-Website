@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Website</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <!-- if I click on the logo I will goto to the top of the page -->
+        <a href="#" class="nav_logo">Travel</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#discover" class="nav_link">Discover</a>
+            </li>
+            <li class="nav_item">
+              <a href="#place" class="nav_link">Place</a>
+            </li>
+          </ul>
+          <i class="ri-close-line nav_close" id="nav-close"></i>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+
+      <section class="home" id="home">
+
+        <img src="./img/home1.jpg" alt="" class="home_img" />
+
+        <div class="home_container container grid">
+
+          <div class="home_data">
+            <span class="home_data-subtitle">Discover your place</span>
+            <h1 class="home_data-title">
+              Explore The <br> Best <b>Beautiful <br> Beaches</b>
+            </h1>
+            <a href="#" class="button">Explore</a>
+          </div>
+          
+          <div class="home_social">
+            <a
+              href="https://www.facebook.com"
+              target="blank"
+              class="home_social-link"
+            >
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="blank"
+              class="home_social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              target="blank"
+              class="home_social-link"
+            >
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+          <div class="home_info">
+            <div>
+              <span class="home_info-title"> 5 best places to visit </span>
+              <a
+                href="#"
+                class="button button--flex button--link home_info-button"
+                >More <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+            <div class="home_info-overlay">
+              <img src="./img/home2.jpg" alt="" class="home_info-image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about"></section>
+      <section class="discover section" id="discover"></section>
+      <section class="place section" id="place"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
